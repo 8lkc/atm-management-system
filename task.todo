@@ -1,0 +1,50 @@
+Features:
+    ✔ Authentification: @done(23-10-28 13:12)
+        ✔ Correct the login feature @done(23-10-28 13:12)
+        ✔ Make a registration one : to be able to register new users @done(23-10-28 13:12)
+
+    ✔ Update information of existing account: @started(23-10-28 13:21) @done(24-03-23 11:15) @lasted(20w6d21h54m59s)
+        Users must be able to update their country or phone number:
+        * It must ask users to input the account id they want to change, followed by a prompt asking which field they want to also change ;
+            the only fields that are permitted to update is the phone number and the country.
+        * Whenever users update an account, it must be saved into the corresponding file.
+
+    ✔ Check owned account(s): @low @done(24-03-23 11:16)
+        List all owned account(s) for an user (if he has any)
+
+    ✔ Check account details: @started(24-03-28 18:35) @done(24-03-31 11:13) @lasted(2d16h39m)
+        Check specifics informations for an existed account
+
+    ✔ Make transaction: @started(24-03-23 11:16) @done(24-03-28 18:32) @lasted(5d7h16m45s)
+        users must be able to create transactions, withdrawing or depositing money to a certain account.
+        All transactions must be updated and saved into the corresponding file.
+        Accounts of type *fixed01*, *fixed02* and *fixed03* are not allowed to make transactions and an error message should be displayed if transactions are attempted with these accounts.
+
+    ☐ Transfer owner:
+        Users can transfer their account to another user, by:
+        * Identifying the account and the user they want to transfer the ownership to
+        * Saving the information in the corresponding file
+
+    ☐  Remove existing account:
+        Users must be able to delete their own account, the same must happen here, updates must be saved into the corresponding file.
+
+Bonus:
+    ✘ Verification for `Transfer owner` feature: @critical @cancelled(24-03-31 11:15)
+        Every time a user transfers ownership of an account the other user who received the account can be alerted that he or she received an account from someone instantly.
+        *Example:* if we have two terminals opened logged in with two different users, and one sends the account to the other user, the user who received the account should be instantly notified.
+
+    ☐ Better terminal interface (TUI): @started(23-10-28 13:46) @high
+        Trying the make the user interface (which is on Terminal) the most user-frendly possible
+
+    ✔ Encryption of passwords: @done(23-10-28 13:50)
+        Protect the users passwords that can be check directly on users file (database to store the users registred)
+
+    ✔ Adding your own Makefile @low @done(24-03-23 11:16)
+
+Helpers:
+    ✔ Check dates validy: @started(23-10-28 14:04) @done(23-10-28 14:07) @lasted(3m9s)
+        ✔ Format checker: @done(23-10-28 14:07)
+            To make sure that a user enter a date in format (dd/mm/yyyy)
+
+        ✔ Check if the year (in a date) is, or not, a leap year: @done(23-10-28 14:07)
+            To better handle of February month (which can be in 28 or 29 days)
