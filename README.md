@@ -17,6 +17,8 @@ This project is an **[ATM](https://en.wikipedia.org/wiki/Automated_teller_machin
 - [Implementation details](#implementation-details)
   - [File system](#file-system)
   - [Directory descriptions](#directory-descriptions)
+- [Contribution guidelines](#contribution-guidelines)
+- [License](#license)
 
 ## Requirements
 - A ***C compiler*** (e.g., GCC)
@@ -84,5 +86,20 @@ The ***ATM Management System*** is structured to maintain modularity and ease of
 - `makefile`: A script used by the make build automation tool to compile the program. It defines the rules for building the executable from the source files, and then run it.
 - `task.todo`: A text file listing tasks and features to be implemented throughout the development process.
 
+## Contribution guidelines
+If you wish, you are free to contribute to any of the projects.\
+Any beneficial improvement will be welcomed with open arms 😇 it would give me great pleasure.
+
+### Process
+1. **Fork the repository:** the ripo you wish to contribute to on your own GitHub account.
+2. **Create a branch:** Create a new branch for your changes **(cf:** `git checkout -b <feature-name>`**)**.
+3. **Make your changes:** Implement your improvements or new features.
+4. **Push your branch:** Save your improvements or new features to the created branch **(cf:** `git push origin <feature-name>`**)**.
+5. **Submit a pull request:** Open a pull request to merge your changes back into the main repository.
+
+## License
+The projects in this collection are licensed under the [**Zone01Dakar License**](https://www.zone01dakar.sn/pagecontact/).
+
 ---
-![Static Badge](https://img.shields.io/badge/Zone01_-Dakar_%F0%9F%87%B8%F0%9F%87%B3-blue)
+![Static Badge](https://img.shields.io/badge/Zone01_-Dakar_%F0%9F%87%B8%F0%9F%87%B3-blue)\
+**Let’s push the boundaries of learning and innovation together 🚀**
