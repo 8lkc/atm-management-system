@@ -1,11 +1,8 @@
-#include "./library/header.h"
+#include "lib.h"
 
-int main(int argc, char *argv[]) {
-
+int main() {
     User user;
     user.name = NULL;
-
     initMenu(user, "");
-
     return EXIT_SUCCESS;
 }
